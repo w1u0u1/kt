@@ -1,5 +1,5 @@
 # kt
-Kernel file/process tool
+Kernel file/process/object tool
 
 # killav
 ![Screenshot](Capture1.gif)

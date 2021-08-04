@@ -4,8 +4,8 @@
 WIN_VERSION_INFO sysinfo_os_version()
 {
 	RTL_OSVERSIONINFOW ver;
-
-	RtlGetVersion(&ver.dwMajorVersion, &ver.dwMinorVersion, &ver.dwBuildNumber, NULL);
+	
+	RtlGetVersion(&ver);
 
 	switch (ver.dwMajorVersion)
 	{
